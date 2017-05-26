@@ -416,4 +416,7 @@
         <item>0x40C04000</item>
         <item>0x00000001</item>
     </integer-array>
+
+    <!-- True if Unprocessed audio source supports the required frequency range and level -->
+    <bool name="config_supportAudioSourceUnprocessed">true</bool>
 </resources>
