@@ -17,7 +17,7 @@
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-mokee
 
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/xiaomi/msm8956-common/msm8956-common-vendor.mk)
@@ -152,10 +152,6 @@ PRODUCT_PACKAGES += \
     gralloc.msm8952 \
     hwcomposer.msm8952 \
     memtrack.msm8952
-
-# Doze mode
-PRODUCT_PACKAGES += \
-    XiaomiDoze
 
 # Fingerprint
 PRODUCT_PACKAGES += \
@@ -355,7 +351,7 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.0-impl
+    android.hardware.vibrator@1.0-service.mokee
 
 # WiFi HAL
 PRODUCT_PACKAGES += \
