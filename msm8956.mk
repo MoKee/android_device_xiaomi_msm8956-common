@@ -246,7 +246,7 @@ PRODUCT_PACKAGES += \
 
 # LiveDisplay native
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@1.0-service-qdcm
+    vendor.mokee.livedisplay@1.0-service-qdcm
 
 # Media
 PRODUCT_COPY_FILES += \
