@@ -46,7 +46,7 @@ public class DeviceSettings extends PreferenceFragment implements
     public static final String KEY_VIBSTRENGTH = "vib_strength";
 
     final String KEY_DEVICE_DOZE = "device_doze";
-    final String KEY_DEVICE_DOZE_PACKAGE_NAME = "org.lineageos.settings.doze";
+    final String KEY_DEVICE_DOZE_PACKAGE_NAME = "org.mokee.settings.doze";
 
     private VibratorStrengthPreference mVibratorStrength;
 
